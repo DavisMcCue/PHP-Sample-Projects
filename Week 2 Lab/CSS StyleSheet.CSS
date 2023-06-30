@@ -1,0 +1,68 @@
+/* 
+Name: Davis McCue
+Date: 2/2/2023
+Description: Changes how the layout of the sorting.php is styled. Allows text to be rainbowed color and cycle through the colors at different speeds. 
+Also changes the border lines of and adds some containers to the text and changed the borders of each containers
+File Name: CSS StyleSheet.CSS */
+
+
+table {
+margin: 1px;
+border: 2px solid;
+}
+
+th {
+background: #F0FFF0;
+color: #FFF;
+padding: 1px 14px;
+}
+
+td{
+    border: 1px solid;
+}
+
+/* This targets the Div container I made that holds the Title values and sets the background
+    opacity of the color*/
+#rainbowBox {
+    background-color: rgb(0,0,0);
+    border: 3px solid;
+}
+
+
+/* this function I will call to another function that sets up the colorRating and colorTitle which is 3seconds and 6seconds, we want it linear-gradient to be 0second in transition.
+and finally we want it to go infinate and not stop */
+.colorRating {
+    animation: colorEffectRating 3s linear infinite;
+    border: 1px solid black;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.colorTitle {
+    animation: colorEffectTitle 6s linear infinite;
+    border: 1px solid black;
+}
+/* these functions allows me to animate the text to different colors using the css animation keywords */
+@keyframes colorEffectRating 
+{
+    10{
+        color:#6666ff;
+    }
+    60% {
+        color:#00ff00;
+    }
+    80%{
+        color:#6666ff;
+    }
+}
+@keyframes colorEffectTitle 
+    {
+    15{
+        color:#6666ff;
+    }
+    30% {
+        color:#00ff00;
+    }
+    100%{
+        color:#6666ff;
+    }
+}
