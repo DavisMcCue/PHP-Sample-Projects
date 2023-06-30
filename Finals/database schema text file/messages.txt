@@ -1,0 +1,15 @@
+===Database finalproject
+
+== Table structure for table messages
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|name|varchar(50)|No|
+|age|varchar(50)|No|
+|message|text|No|
+== Dumping data for table messages
+
+|22|Davis Allen McCue|26|FInally, School is over
+|23|Jack|80|My old bones

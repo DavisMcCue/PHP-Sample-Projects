@@ -1,0 +1,67 @@
+body {
+    background-color: cornflowerblue;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: lightblue;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}
+h2{
+    color: #FFF;
+}
+h3{
+    color: #FFF;
+    margin-left: 875px;
+}
+label{
+   color: #FFF;
+   margin-left: 875px; 
+}
+.submit{
+   margin-left: 875px; 
+}
+.Messages
+{
+   color: #FFF;
+   margin-left: 875px; 
+}
+p{
+    color: #FFF;
+}
+nav {
+    background-color: lightblue;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 50px;
+    text-align: center;
+}
+section h2 {
+    margin-top: 0;
+}
+footer {
+    margin:5px;
+    background-color: lightblue;
+    color: #FFF;
+    padding: 8px;
+    text-align: center;
+}
